@@ -1,18 +1,16 @@
 === Plugin Name ===
-Contributors: ramoonus
-Donate link: http://www.ramoonus.nl
-Tags: html5, html, javascript, ie, internet explorer, css 3, css3, json
-Requires at least: 3.0.0
-Tested up to: 3.2
-Stable tag: 1.0.0
+Contributors: Ramoonus
+Donate link: http://www.ramoonus.nl/
+Tags: html5, html, javascript, ie, internet explorer, css 3, css3, json, ie9, ie10,
+Requires at least: 3.0
+Tested up to: 3.3
+Stable tag: 1.1
 
-Compat Inspector is designed to help sites migrating to IE9 Standards Mode, not those running in legacy modes.
+Compat Inspector is designed to help sites migrating to IE10 Standards Mode, not those running in legacy modes.
 == Description ==
-Compat Inspector is designed to help sites migrating to IE9 Standards Mode, not those running in legacy modes. You may still need to refer to the above documentation for some issues. The best pattern is to use Compat Inspector first, then fall back to the documentation if nothing is found. 
+Compat Inspector is a JavaScript-based testing tool that analyzes your site while it runs. Compat Inspector reports patterns of interaction which cause issues in recent modes. This allows you to identify problems quickly without memorizing a bunch of documentation or searching through the entirety of your site's code. We developed Compat Inspector during the course of IE9 to speed up the process of recognizing common issues across different sites and have now updated it for IE10. Along the way, many members of the IE team contributed to the set of test cases that make up the rules in Compat Inspector.
 
-Compat Inspector uses features introduced in IE9. At its core, Compat Inspector overrides native APIs using ECMAScript 5th edition getters/setters and depends on the browser to correctly expose APIs per WebIDL. Compat Inspector then uses these overrides to track interactions between the page and the native platform. This allows it to report issues at runtime as the problem code is executed. 
-The rest of the Compat Inspector infrastructure makes use of various other new features as needed. Some examples include DOM Level 3 Core APIs, DOM Level 3 Events APIs, and CSS3 Border Radius. Compat Inspector also depends on features introduced in IE8 such as HTML5 Local Storage, HTML5 Cross-Document Messaging, native JSON support, and Selectors API.
-
+Documentation can be found at http://ie.microsoft.com/testdrive/HTML5/CompatInspector/help/post.htm
 
 == Installation ==
 1. Upload `ie9-compat.php` to the `/wp-content/plugins/` directory
@@ -28,5 +26,11 @@ Its recommended to flush the cache after upgrading.
 Not relevant.
 
 == Changelog ==
+= 1.1 =
+* IE10 Compat Inspector
+* Readme update
+* Code optimalisation
+
 = 1.0 =
+* IE9 Compat Inspector
 * First version
