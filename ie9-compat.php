@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: IE10 Compat Inspector
+Plugin Name: Internet Explorer Compatibility Inspector
 Plugin URI: http://www.ramoonus.nl/wordpress/ie9-compat/
 Description: Compat Inspector is designed to help sites migrating to IE9 Standards Mode, not those running in legacy modes.
 Version: 1.1
