@@ -2,8 +2,8 @@
 Contributors: Ramoonus
 Donate link: http://www.ramoonus.nl/
 Tags: html5, html, javascript, ie, internet explorer, css 3, css3, json, ie9, ie10,
-Requires at least: 3.0
-Tested up to: 3.9.1
+Requires at least: 3.9
+Tested up to: 4.1
 Stable tag: 1.1
 
 Compat Inspector is designed to help sites migrating to IE10 Standards Mode, not those running in legacy modes.
@@ -26,6 +26,10 @@ Its recommended to flush the cache after upgrading.
 Not relevant.
 
 == Changelog ==
+= Update January 2015 =
+* Readme update
+* Renamed to Internet Explorer 10 Compatibility Inspector
+
 = 1.1 =
 * IE10 Compat Inspector
 * Readme update
