@@ -3,7 +3,7 @@ Contributors: Ramoonus
 Donate link: http://www.ramoonus.nl/
 Tags: html5, html, javascript, ie, internet explorer, css 3, css3, json, ie9, ie10,
 Requires at least: 3.9
-Tested up to: 4.1
+Tested up to: 4.3
 Stable tag: 1.1
 
 Compat Inspector is designed to help sites migrating to IE10 Standards Mode, not those running in legacy modes.
